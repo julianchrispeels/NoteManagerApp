@@ -1,0 +1,11 @@
+.note-manager {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.note-manager-content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 70px;
+}
