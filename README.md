@@ -1,9 +1,3 @@
-# Details
-
-## How to run the app
-
-To start the application, open the console, navigate to the main directory of the project, and run the command: `./start.sh`.
-
 ## Tools and technologies used
 
 Below is a list of the tools and technologies employed to develop the app:
@@ -25,6 +19,6 @@ Below is a list of the tools and technologies employed to develop the app:
 
 ## Server and database
 
-For this project, I chose PostgreSQL as the relational database management system (DBMS) and Sequelize, a Node.js-based ORM, for database interactions.
+For this project, I chose PostgreSQL as the relational database management system (RDBMS) and Sequelize, a Node.js-based ORM, for database interactions.
 
-The database was hosted locally due to issues connecting to a cloud server (Supabase). To set it up, you must create the database on a local server and update the following environment variables in the `.env` file: `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER` and `DB_PASSWORD`. Apologies for any inconvenience.
+The database is hosted in a cloud server (Supabase).

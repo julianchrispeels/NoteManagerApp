@@ -2,6 +2,10 @@ import Header from './components/Header';
 import NotesBox from './components/NoteBox';
 import SideBar from './components/SideBar';
 import { useState, useEffect } from 'react';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
 import './style.css';
 
 
@@ -9,7 +13,6 @@ export default function NoteManager() {
 
     const [notesArray, setNotes] = useState([])
 
-    // const endopint = 'http://localhost:4000/'
     const endpoint = 'https://mswgsfgwleficsndtcdz.supabase.co/rest/v1/notes'
     const apikey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1zd2dzZmd3bGVmaWNzbmR0Y2R6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzU1ODk1NTAsImV4cCI6MjA1MTE2NTU1MH0.P7jWF0-7Qa2ZcXd4bUvi1M7pOnsbhoZ5O21EoFIXe6Q'
 
